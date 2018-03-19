@@ -1,0 +1,59 @@
+/*-----------------------
+        Responsive for device < 780px
+-----------------------------------------*/
+@media screen and (max-width: 780px) {
+    .is_pc {
+        display: none;
+    }
+    .is_sp {
+        display: inherit;
+    }
+    /*------------------- Typography_SP -------------------*/
+    .title_h2 {
+        // font-size: 24px;
+        // color: $color-primary;
+        // line-height: 1.8;
+        // font-weight: bold;
+    }
+    .title_h3 {
+        // font-size: 24px;
+        // line-height: 1.8;
+        // color: $color-primary;
+        // font-weight: bold;
+    }
+    .title_h4 {
+        // font-size: 24px;
+        // color: $color-primary;
+        // line-height: 1.8;
+        // font-weight: bold;
+    }
+    .text {
+        // padding:
+        // font-size: ;
+        // color:
+    }
+
+    /*------------------- Form_SP -------------------*/
+    input {
+        // padding:
+        // border:
+        &:focus {
+
+        }
+    }
+    select {
+        // padding:
+        // border:
+    }
+    textarea {
+        // padding:
+        // border:
+    }
+    .btn {
+        // padding:
+        // border:
+        // background:
+        // font-size:
+        // color:
+    }
+}

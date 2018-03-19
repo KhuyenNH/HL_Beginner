@@ -1,0 +1,376 @@
+.row_clear:after, .container:after, .listItems:after, .footer:after, .footer .footer_content:after {
+  content: "";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address,
+del, em, img, small, strong, b, u, i, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+button,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  word-wrap: break-word;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: inherit;
+  font-weight: inherit;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figure, footer, header, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #747474;
+  font-size: 14px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover img {
+  opacity: 0.8;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+li, ol {
+  list-style: none;
+}
+
+button:focus, input:focus, a:focus {
+  outline: none;
+}
+
+/*------------------- Wraper -------------------*/
+.wrapper {
+  min-width: 1100px;
+}
+
+.container {
+  position: relative;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/*------------------- Component -------------------*/
+.title_h2 {
+  text-align: center;
+}
+
+.title_h3 {
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+}
+
+/*------------------- List -------------------*/
+/*======================================
+        Header
+======================================*/
+.header {
+  z-index: 9;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 6px #919191;
+  box-shadow: 0px 0px 6px #919191;
+}
+
+/*------------------------------------
+
+            Page.html
+
+------------------------------------*/
+/*    local_slider
+------------------------------------*/
+.local_slider {
+  text-align: center;
+  position: relative;
+}
+
+.local_slider .btn_top {
+  position: absolute;
+  left: 122px;
+  bottom: 95px;
+}
+
+/*    local_items
+------------------------------------*/
+.local_items .title_h2 {
+  padding: 115px 0 60px;
+}
+
+.local_items .list_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.local_items .items {
+  position: relative;
+  padding: 0 5px 15px;
+}
+
+.local_items .link_items {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 35px;
+}
+
+/*    local_circle
+------------------------------------*/
+.local_circle {
+  padding: 150px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.local_circle .circle_description {
+  margin-right: -55px;
+}
+
+.local_circle .circle_img {
+  margin-left: -32px;
+  position: relative;
+}
+
+.local_circle .circle_img .circle_01 {
+  position: relative;
+  width: 89%;
+}
+
+.local_circle .circle_img .circle_02 {
+  position: absolute;
+  top: 23px;
+  right: -66px;
+  width: 100%;
+}
+
+/*    local_video
+------------------------------------*/
+.local_video {
+  background: url("../images/bg_content.jpg") center;
+  background-size: cover;
+  height: 678px;
+  text-align: center;
+}
+
+.local_video .title_h2 {
+  position: relative;
+  top: -34px;
+}
+
+.local_video .video_content {
+  margin-top: -20px;
+}
+
+/*    local_step
+------------------------------------*/
+.local_step {
+  padding: 145px 0;
+}
+
+.local_step .title_h3 {
+  padding: 45px 0;
+}
+
+.local_step .list_step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.local_step .items {
+  position: relative;
+  padding: 0 5px;
+}
+
+.local_step .link_step {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  text-align: center;
+}
+
+.local_step .btn {
+  padding-top: 30px;
+}
+
+/*    local_slider
+------------------------------------*/
+/*======================================
+        Footer
+======================================*/
+.text_bottom {
+  line-height: 22px;
+  padding-left: 100px;
+}
+
+.footer {
+  padding-bottom: 50px;
+}
+
+.footer .link_footer {
+  background: #000;
+  font-size: 13px;
+  margin: 18px 0;
+}
+
+.footer .link_footer a {
+  color: #fff;
+}
+
+.footer .list_link {
+  display: table;
+  margin: auto;
+  padding: 14px 0;
+}
+
+.footer .footer_content {
+  color: #000;
+  width: 1000px;
+  margin: auto;
+  line-height: 22px;
+}
+
+.footer .footer_content .content_left {
+  float: left;
+}
+
+.footer .footer_content .content_right {
+  float: right;
+}
+
+/*======================================
+        Helper
+======================================*/
+.is_pc {
+  display: inherit;
+}
+
+.is_sp {
+  display: none;
+}
+
+.is_hidden {
+  display: none;
+}
+
+.tar {
+  text-align: right;
+}
+
+.tal {
+  text-align: left;
+}
+
+.tac {
+  text-align: center;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right !important;
+}
+
+.brd_none {
+  border: 0 !important;
+}
+
+/*-----------------------
+        Responsive for device < 780px
+-----------------------------------------*/
+@media screen and (max-width: 780px) {
+  .is_pc {
+    display: none;
+  }
+  .is_sp {
+    display: inherit;
+  }
+  /*------------------- Typography_SP -------------------*/
+  /*------------------- Form_SP -------------------*/
+}

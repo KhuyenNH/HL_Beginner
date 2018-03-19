@@ -1,0 +1,37 @@
+/*======================================
+        Footer
+======================================*/
+.text_bottom {
+    line-height: 22px;
+    padding-left: 100px;
+}
+.footer {
+    padding-bottom: 50px;
+    @extend %clearfix;
+    .link_footer {
+        background: $color-o;
+        font-size: 13px;
+        margin: 18px 0;
+        a {
+            color: #fff;
+        }
+    }
+    .list_link {
+        display: table;
+        margin: auto;
+        padding: 14px 0;
+    }
+    .footer_content {
+        color: #000;
+        @extend %clearfix;
+        width: 1000px;
+        margin: auto;
+        line-height: 22px;
+        .content_left {
+            float: left;
+        }
+        .content_right {
+            float: right;
+        }
+    }
+}

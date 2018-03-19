@@ -1,0 +1,112 @@
+/*------------------------------------
+
+            Page.html
+
+------------------------------------*/
+
+/*    local_slider
+------------------------------------*/
+.local_slider {
+    text-align: center;
+    position: relative;
+    .btn_top {
+        position: absolute;
+        left: 122px;
+        bottom: 95px;
+    }
+}
+
+
+/*    local_items
+------------------------------------*/
+.local_items {
+    .title_h2 {
+        padding: 115px 0 60px;
+    }
+    .list_items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .items {
+        position: relative;
+        padding: 0 5px 15px;
+    }
+    .link_items {
+        position: absolute;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 35px;
+    }
+}
+
+/*    local_circle
+------------------------------------*/
+.local_circle {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    .circle_description {
+        margin-right: -55px;
+    }
+    .circle_img {
+        margin-left: -32px;
+        position: relative;
+        .circle_01 {
+            position: relative;
+            width: 89%;
+        }
+        .circle_02 {
+            position: absolute;
+            top: 23px;
+            right: -66px;
+            width: 100%;
+        }
+    }
+}
+
+/*    local_video
+------------------------------------*/
+.local_video {
+    background: url('../images/bg_content.jpg') center;
+    background-size: cover;
+    height: 678px;
+    text-align: center;
+    .title_h2 {
+        position: relative;
+        top: -34px;
+    }
+    .video_content {
+        margin-top: -20px;
+    }
+}
+
+/*    local_step
+------------------------------------*/
+.local_step {
+    padding: 145px 0;
+    .title_h3 {
+        padding: 45px 0;
+    }
+    .list_step {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .items {
+        position: relative;
+        padding: 0 5px;
+    }
+    .link_step {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 25px;
+        text-align: center;
+    }
+    .btn {
+        padding-top: 30px;
+    }
+}
+/*    local_slider
+------------------------------------*/
