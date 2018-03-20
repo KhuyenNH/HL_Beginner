@@ -2,10 +2,12 @@
         Header
 ======================================*/
 .header {
+    width: 100%;
+    position: fixed;
     z-index: 9;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 6px #919191;
+    background: #fff;
 }

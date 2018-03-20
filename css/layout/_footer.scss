@@ -2,36 +2,59 @@
         Footer
 ======================================*/
 .text_bottom {
+    margin-top: 50px;
     line-height: 22px;
     padding-left: 100px;
 }
-.footer {
-    padding-bottom: 50px;
-    @extend %clearfix;
-    .link_footer {
-        background: $color-o;
-        font-size: 13px;
-        margin: 18px 0;
-        a {
-            color: #fff;
-        }
-    }
-    .list_link {
-        display: table;
-        margin: auto;
-        padding: 14px 0;
-    }
-    .footer_content {
-        color: #000;
-        @extend %clearfix;
-        width: 1000px;
-        margin: auto;
-        line-height: 22px;
-        .content_left {
-            float: left;
-        }
-        .content_right {
-            float: right;
-        }
-    }
+.footTopWrap {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background: #000;
+    border-top: 1px #fff solid;
+    clear: both;
+}
+.footTop {
+    width: 970px;
+    height: 30px;
+    color: #fff;
+    font-size: 80%;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+    text-align: center;
+    background: #000;
+}
+.footTop a {
+    color: #fff;
+    text-decoration: none;
+}
+.footTop a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.footBtmWrap {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+}
+.footBtm {
+    width: 900px;
+    height: 48px;
+    color: #000;
+    font-size: 80%;
+    margin: 0 auto;
+    padding: 12px 0 0 0;
+}
+.fbLeft {
+    width: 50%;
+    height: auto;
+    float: left;
+    line-height: 170%;
+}
+.fbRight {
+    width: 50%;
+    height: auto;
+    float: right;
+    text-align: right;
+    font-weight: normal;
 }
