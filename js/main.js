@@ -6,16 +6,23 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 var player;
+
 function onYouTubePlayerAPIReady() {
     player = new YT.Player('ytplayer', {
         height: '492',
         width: '685',
         playerVars: {
-            autoplay: 0
+            autoplay: 0,
+            'controls': 0,
+            'enablejsapi': 1,
+            'showinfo': 0,
+            'rel': 0,
+            'cc_load_policy': 1
         },
-        videoId: 'qu9TiWocgTA'
+        videoId: 's29yp9-2RLU'
     });
 }
+
 $(window).scroll(function() {
     var scroll = $(this).scrollTop();
     $("iframe").each(function() {
@@ -26,9 +33,9 @@ $(window).scroll(function() {
         }
     });
     var posCircle = $('.local_circle').offset().top;
-    if(scroll > posCircle - 400) {
+    if (scroll > posCircle - 500) {
         $('.circle_01').addClass('show');
-        setTimeout(function () {
+        setTimeout(function() {
             $('.circle_02').addClass('show');
         }, 400);
     }
